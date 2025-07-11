@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Weather",
+  "version": "1.0",
+  "description": "Check the weather instantly!",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
